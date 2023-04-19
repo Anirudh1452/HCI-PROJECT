@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Video saved: " + videoPath, Toast.LENGTH_SHORT).show();
             Log.d(TAG, "Video saved: " + videoPath);
 
-            // Send  notification of updated content.
+
             ContentValues values = new ContentValues();
             values.put(MediaStore.Video.Media.TITLE, "Sceneform Video");
             values.put(MediaStore.Video.Media.MIME_TYPE, "video/mp4");
